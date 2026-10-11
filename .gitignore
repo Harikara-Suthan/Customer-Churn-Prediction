@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
+
+# The dataset is downloaded automatically (see README); it is not committed.
+data/*.csv
+data/*.tmp
+
+# models/ and reports/ ARE committed so the deployed app can start without training.
